@@ -4,7 +4,7 @@
   },
   "name": "movies-api",
   "version": "1.0.0",
-  "description": "create simple movies api using node js, express js",
+  "description": "",
   "main": "main.js",
   "type": "module",
   "devDependencies": {},

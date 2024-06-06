@@ -1,13 +1,11 @@
 import express from "express";
+import movieRouter from "./routers/movies.router.js";
 
 const app = express();
 const PORT = 2005;
 
-app.get('/', (req, res) => {
-    res.json({
-        "message" : "Hii budy I'm here...."
-    });
-});
+// Movies API Routers
+app.use('/movies', movieRouter);
 
 app.listen(PORT, () => {
     console.log(`Hii you are visit http://localhost:${PORT}`);
